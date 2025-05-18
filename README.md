@@ -22,15 +22,9 @@ API Endpoint: GET /recommend/<user_id>
 Usage Examples:
 Get recommendations for user 42: curl http://localhost:5000/recommend/42
 
-Sample response:
-[
-  {
-    "book_id": 123,
-    "title": "The Great Gatsby",
-    "rating": 4.8,
-    "author": "F. Scott Fitzgerald"
-  }
-]
+Sample Response:
+![image](https://github.com/user-attachments/assets/e210c8fa-4764-4ddb-8d66-64a00ec6a7b0)
+
 
 Sample Images :![image](https://github.com/user-attachments/assets/245b6c6d-f86b-4a82-baee-7a6ded2c0484)
 ![image](https://github.com/user-attachments/assets/2ab2d58e-9328-40fe-8b19-fa08c5265efa)
