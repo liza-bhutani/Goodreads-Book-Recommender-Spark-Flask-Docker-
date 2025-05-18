@@ -14,14 +14,14 @@ Tech Stack :
 
 Installation:
 Clone the repository :
-git clone https://github.com/yourusername/goodreads-recommender.git
+git clone https://github.com/yourusername/goodreads-recommender.git ,
 cd goodreads-recommender
 
 Build and run with Docker:
 docker-compose up --build
 
 Access the system:
-Web UI: http://localhost:5000
+Web UI: http://localhost:5000 , 
 API Endpoint: GET /recommend/<user_id>
 
 Usage Examples:
