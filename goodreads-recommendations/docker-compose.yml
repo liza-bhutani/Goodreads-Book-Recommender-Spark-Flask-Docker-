@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  bookrecs:
+    build: .
+    ports:
+      - "5000:5000"  # Map host port 5000 → container port 5000
+    volumes:
+      - .:/app
+    environment:
+      - PYSPARK_PYTHON=python3
+      - SPARK_HOME=/opt/bitnami/spark
+    networks:
+      - bookrecs-net  # Explicit network
+
+networks:
+  bookrecs-net:
+    driver: bridge
