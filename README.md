@@ -12,11 +12,6 @@ Tech Stack :
 3. Docker: Containerized environment
 4. Bootstrap 5: Responsive frontend
 
-Installation:
-Clone the repository :
-git clone https://github.com/yourusername/goodreads-recommender.git ,
-cd goodreads-recommender
-
 Build and run with Docker:
 docker-compose up --build
 
